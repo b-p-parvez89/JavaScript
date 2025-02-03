@@ -54,5 +54,8 @@ const q3 = ["Jul", "Aug", "Sep"];
 const q4 = ["Oct", "Nov", "May"];
 
 const years=[...q1, ...q2, ...q3, ...q4];
-console.log(years);
+// console.log(years);
 
+const number= [23, 55, 21,84,58];
+let maxValue =Math.max(...number)
+console.log(maxValue); //84
